@@ -82,3 +82,22 @@ Leave a short handoff with:
 - `next_self_should_not`
 
 Use the handoff to make continuation safe, not ceremonial.
+
+## V12 Context Signal Footer
+
+At the end of every agent response in this repo, include the V12 Context Signal Footer defined in:
+
+`docs/v12-context-signal-footer.md`
+
+Use it to show:
+
+- whether the current work can continue
+- whether a handoff should be prepared
+- whether handoff is required now
+- which restart handles are weakening
+- what should not be changed
+- the next safe action
+
+Do not use this footer as a score.
+Do not use it to force stopping.
+Use it as a context signal for preserving restartability and Rescale options.
