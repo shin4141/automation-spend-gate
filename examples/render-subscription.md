@@ -12,6 +12,8 @@
 
 MMAR has not been touched for two weeks. Paying again only makes sense if the remaining paid month becomes an observation window that produces a concrete asset or proves the deployment is still needed.
 
+The failure mode was not the amount of money. The failure mode was that the billing cycle moved before the decision gate closed.
+
 If the user waits, nothing important breaks immediately. The existing paid period can be used before making the next payment decision.
 
 ## Durable Asset Target

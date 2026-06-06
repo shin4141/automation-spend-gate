@@ -11,7 +11,7 @@ This is not a scoring system. This is not a brake. It is a context signal for kn
 At the end of every agent response in this repo, include:
 
 ```text
-Context Signal: GREEN | YELLOW | RED
+Signal: 🟢 CONTINUE | 🟡 PREPARE_HANDOFF | 🔴 HANDOFF_NOW
 Context Load: low | medium | high
 Risk Driver: <main reason the signal is not lower>
 Restart Handles: <strong | weakening | missing>
@@ -23,7 +23,7 @@ Use plain language. Keep the footer short. Do not add numeric scores by default.
 
 ## Signal Meanings
 
-`GREEN` means the current work can continue normally.
+`🟢 CONTINUE` means the current work can continue normally.
 
 - Context is fresh enough to proceed.
 - Restart handles are clear.
@@ -31,14 +31,14 @@ Use plain language. Keep the footer short. Do not add numeric scores by default.
 - The next safe action is obvious.
 - No handoff is needed beyond the normal footer.
 
-`YELLOW` means continue, but prepare handoff.
+`🟡 PREPARE_HANDOFF` means continue, but prepare handoff.
 
 - The work can keep going, but restartability is becoming more expensive.
 - Important constraints, file state, or decisions should be preserved explicitly.
 - The next response should reduce ambiguity, write down the handle, or finish a bounded step.
 - Yellow is the key preservation state.
 
-`RED` means handoff now.
+`🔴 HANDOFF_NOW` means handoff now.
 
 - Continuing risks losing key context, weakening restartability, or damaging Rescale options.
 - The next response should stop expansion and leave a clear handoff.
@@ -167,7 +167,7 @@ When in yellow:
 Green example:
 
 ```text
-Context Signal: GREEN
+Signal: 🟢 CONTINUE
 Context Load: low
 Risk Driver: none
 Restart Handles: strong
@@ -178,7 +178,7 @@ Next Safe Action: continue the requested Markdown edit
 Yellow example:
 
 ```text
-Context Signal: YELLOW
+Signal: 🟡 PREPARE_HANDOFF
 Context Load: medium
 Risk Driver: uncommitted documentation changes
 Restart Handles: weakening
@@ -189,7 +189,7 @@ Next Safe Action: run verification and leave a short handoff before stopping
 Red example:
 
 ```text
-Context Signal: RED
+Signal: 🔴 HANDOFF_NOW
 Context Load: high
 Risk Driver: restart handles are missing
 Restart Handles: missing

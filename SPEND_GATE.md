@@ -83,3 +83,29 @@ Why is this the correct decision given the durable asset target, KPI window, sto
 What is the next action that preserves optionality?
 
 -
+
+## Mini Example: Render Subscription
+
+Spend target:
+Render hosting / service subscriptions
+
+Cost:
+About $30/month
+
+Situation:
+The related MMAR project has not been touched for about two weeks, but the billing cycle is still active.
+
+Decision:
+WAIT / RESCALE
+
+7-day KPI:
+Produce one concrete artifact, such as a working demo, deployment check, or documented MMAR workflow decision.
+
+Stop-loss line:
+If no concrete artifact is produced before the next billing cycle, cancel or downgrade.
+
+Rescale option:
+Use the remaining paid month as an observation window. Do not let the next billing cycle renew by default.
+
+Why:
+The problem is not that $30 is catastrophic. The problem is that the billing cycle can move faster than the decision process.

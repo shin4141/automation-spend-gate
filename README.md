@@ -2,6 +2,8 @@
 
 Every AI tool looks worth it. Together they can kill your Rescale options.
 
+"Rescale options" means keeping cheaper, smaller, reversible paths open until the project proves it deserves more cost.
+
 Automation Spend Gate is a pre-payment EV gate for AI automation costs. It asks one practical question:
 
 > Before you pay, what must be true in 7 days for this spend to be justified?
