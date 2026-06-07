@@ -51,6 +51,20 @@ Every `STOP` should define:
 - Rejoin Condition: what must become true before paying again
 - Protected Margin: avoided spend that preserves runway or future options
 
+## Industry Fit: AI Spend Does Not Work Equally Everywhere
+
+Some industries and workflows convert AI spend directly into output, speed, reusable assets, or margin. Others are heavier: regulation, human trust, data boundaries, approval flow, field work, or verification cost may limit ROI.
+
+Heavy workflows may still need AI, but the first spend should often be workflow mapping, templates, small pilots, or review gates -- not the highest model plan. More agents or more tools do not automatically mean more profit.
+
+AI spend should be allocated where the profit gradient is steepest, not where the tool feels most advanced.
+
+| Workflow type | Examples | Gate posture |
+| --- | --- | --- |
+| Lightweight workflows | creative, code, writing, research, customer support | Higher chance of direct profit gradient |
+| Heavy workflows | regulated work, field work, trust-heavy work, approval-heavy work | Test smaller, map workflow first |
+| Mixed workflows | sales, ops, internal docs, support, reporting | Start with a small workflow and measure output |
+
 ## Boundaries
 
 This is not:
@@ -88,3 +102,4 @@ See examples:
 - [Positive-EV tool under budget pressure](/Users/sn/Documents/automation-spend-gate/examples/positive-ev-budget-pressure.md)
 - [Company SaaS unused seat](/Users/sn/Documents/automation-spend-gate/examples/company-saas-unused-seat.md)
 - [Personal recurring cost with Aspire](/Users/sn/Documents/automation-spend-gate/examples/personal-recurring-aspire.md)
+- [Industry fit: heavy workflow](/Users/sn/Documents/automation-spend-gate/examples/industry-fit-heavy-workflow.md)
