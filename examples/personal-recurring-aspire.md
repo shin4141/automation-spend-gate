@@ -12,11 +12,11 @@
 
 Before this renews, what evidence justifies paying again?
 
-The service may represent a real Aspire, such as health, rest, learning, or creative recovery. The gate should preserve the Aspire without letting an unused billing cycle renew by default.
+This is only a recurring-cost decision example, not personal finance advice or lifestyle coaching. The service may represent a real Aspire, such as health, rest, learning, or creative recovery, but the gate asks whether this specific unused billing cycle should renew.
 
 ## Profit Gradient
 
-For this edge case, profit gradient means the spend should create time saved, reduced failure rate, durable wellbeing, or a protected routine. It is still not generic lifestyle advice.
+For this edge case, Profit Gradient means the recurring cost should support a concrete next-7-day use, protected routine, or reduced failure rate. It does not judge the Aspire itself.
 
 ## No-Use Cut Rule
 
@@ -28,7 +28,7 @@ If there is no meaningful use in the last N days, no concrete next-7-day use, lo
 
 ## Decision Rationale
 
-Stop the recurring payment while preserving the underlying Aspire. The Aspire may still matter, but the current subscription is not the active path.
+Stop the recurring payment while preserving the underlying Aspire. The Aspire may still matter, but this unused subscription is not the active path right now.
 
 ## Rejoin Condition
 
@@ -36,7 +36,7 @@ Rejoin when there is a concrete next-7-day plan, such as scheduled sessions, a s
 
 ## Protected Margin
 
-Protected margin is the avoided recurring spend while the Aspire is pursued through a cheaper, smaller, or manual path.
+Protected margin is the avoided recurring spend while the Aspire remains available through a cheaper, smaller, or manual path.
 
 ## Next Safe Action
 

@@ -54,7 +54,7 @@ Define the 3-day, 7-day, or 30-day KPI.
 
 ## Profit Gradient
 
-Judge the spend by whether it creates:
+Profit Gradient means the spend should create at least one concrete upside:
 
 - future profit:
 - time saved:
@@ -85,7 +85,7 @@ What cheaper, smaller, reversible, or manual option exists?
 
 ## No-Use Cut Rule
 
-If all are true, choose `STOP`:
+If all are true, choose `STOP` while preserving a rejoin path:
 
 - no meaningful use in the last N days:
 - no concrete next-7-day use:
@@ -94,7 +94,7 @@ If all are true, choose `STOP`:
 
 ## Rejoin Condition
 
-Every `STOP` must define when to rejoin.
+Every `STOP` must define when to rejoin so stopping does not erase the option.
 
 - Rejoin when:
 - Evidence needed before rejoining:

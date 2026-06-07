@@ -34,17 +34,17 @@ Before spending or renewing, define:
 - `GO`: Pay now, with a specific 7-day KPI and stop-loss.
 - `WAIT`: Do not pay yet. Use the current free, paid, or manual window first.
 - `RESCALE`: Choose a cheaper, smaller, reversible, or shorter option.
-- `STOP`: Do not continue. The spend is not creating enough option value.
+- `STOP`: Do not continue now. Preserve the rejoin path, but stop the current spend.
 
 ## Renewal Gate
 
 Before this renews, what evidence justifies paying again?
 
-Renewal is not justified by usage alone. Judge spend by the Profit Gradient: whether it creates future profit, time saved, reusable assets, or reduced failure rate.
+Renewal is not justified by usage alone. Profit Gradient means the spend should create at least one concrete upside: future profit, time saved, reusable assets, or reduced failure rate.
 
 Use the No-Use Cut Rule when a recurring cost has gone quiet:
 
-If there is no meaningful use in the last N days, no concrete next-7-day use, low rejoin cost, and low data/operation risk, then `STOP`.
+If there is no meaningful use in the last N days, no concrete next-7-day use, low rejoin cost, and low data/operation risk, then `STOP` while defining when to rejoin.
 
 Every `STOP` should define:
 
