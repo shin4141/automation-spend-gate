@@ -93,6 +93,8 @@ Automation Spend Gate is template-first, not app-first.
 3. Choose `GO`, `WAIT`, `RESCALE`, or `STOP`
 4. If `STOP`, define Rejoin Condition and Protected Margin
 
+For a shorter copy-paste version, use [AutoSpend short prompt](/Users/sn/Documents/automation-spend-gate/docs/autospend-short-prompt.md).
+
 ## Optional LLM-Readable View
 
 This may help when asking an LLM or agent to read the repo as Markdown:
