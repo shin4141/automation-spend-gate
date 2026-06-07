@@ -18,6 +18,16 @@ Core question:
 - What breaks, stalls, or slows down if you do not pay?
 - What happens if you wait 7 days?
 
+## Renewal Gate
+
+Before this renews, what evidence justifies paying again?
+
+- Meaningful use in the last N days:
+- Evidence created since last payment:
+- Concrete next-7-day use:
+- Renewal deadline:
+- Billing owner:
+
 ## Durable Asset Target
 
 What durable asset should this spend create?
@@ -34,13 +44,23 @@ What durable asset should this spend create?
 
 ## KPI Window
 
-Define the 7-day KPI.
+Define the 3-day, 7-day, or 30-day KPI.
 
 - Start date:
 - End date:
 - KPI:
 - Minimum acceptable result:
 - Evidence required:
+
+## Profit Gradient
+
+Judge the spend by whether it creates:
+
+- future profit:
+- time saved:
+- reusable asset:
+- reduced failure rate:
+- other option value:
 
 ## Stop-Loss Line
 
@@ -62,6 +82,31 @@ What cheaper, smaller, reversible, or manual option exists?
 - Cheaper plan:
 - Shorter commitment:
 - Open-source alternative:
+
+## No-Use Cut Rule
+
+If all are true, choose `STOP`:
+
+- no meaningful use in the last N days:
+- no concrete next-7-day use:
+- low rejoin cost:
+- low data/operation risk:
+
+## Rejoin Condition
+
+Every `STOP` must define when to rejoin.
+
+- Rejoin when:
+- Evidence needed before rejoining:
+- Smallest safe rejoin option:
+
+## Protected Margin
+
+Track avoided spend after `STOP` as protected margin/runway.
+
+- Avoided spend:
+- Time period:
+- What this protects:
 
 ## Decision
 
