@@ -40,7 +40,7 @@ Before spending or renewing, define:
 
 Before this renews, what evidence justifies paying again?
 
-Renewal is not justified by usage alone. Profit Gradient means the spend should create at least one concrete upside: future profit, time saved, reusable assets, or reduced failure rate.
+Renewal is not justified by usage alone. Profit Gradient means whether the spend is turning into profit, saved time, reusable assets, or lower failure risk -- not just whether the tool was opened.
 
 Use the No-Use Cut Rule when a recurring cost has gone quiet:
 
