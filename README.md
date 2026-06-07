@@ -70,9 +70,14 @@ It is:
 - Rescale protection checklist
 - way to convert "this tool seems useful" into a time-boxed EV decision
 
-## Use
+## Quick Start
 
-Copy [SPEND_GATE.md](/Users/sn/Documents/automation-spend-gate/SPEND_GATE.md), fill it out before payment, and assign one decision label.
+Automation Spend Gate is template-first, not app-first.
+
+1. Copy `SPEND_GATE.md`
+2. Fill it before a new payment or renewal
+3. Choose `GO`, `WAIT`, `RESCALE`, or `STOP`
+4. If `STOP`, define Rejoin Condition and Protected Margin
 
 See examples:
 
