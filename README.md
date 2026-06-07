@@ -93,6 +93,12 @@ Automation Spend Gate is template-first, not app-first.
 3. Choose `GO`, `WAIT`, `RESCALE`, or `STOP`
 4. If `STOP`, define Rejoin Condition and Protected Margin
 
+## Optional LLM-Readable View
+
+This may help when asking an LLM or agent to read the repo as Markdown:
+
+https://r.jina.ai/https://github.com/shin4141/automation-spend-gate
+
 See examples:
 
 - [Render subscription](/Users/sn/Documents/automation-spend-gate/examples/render-subscription.md)
