@@ -100,6 +100,8 @@ Automation Spend Gate is template-first, not app-first.
 
 For a shorter copy-paste version, use [AutoSpend short prompt](docs/autospend-short-prompt.md).
 
+Future extension note: [Solo Operator Deadman Gate](docs/solo-operator-deadman-gate.md).
+
 ## Optional LLM-Readable View
 
 This may help when asking an LLM or agent to read the repo as Markdown:
