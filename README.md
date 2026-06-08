@@ -1,5 +1,10 @@
 # Automation Spend Gate
 
+[![Release](https://img.shields.io/github/v/release/shin4141/automation-spend-gate?label=release)](https://github.com/shin4141/automation-spend-gate/releases/tag/v0.1.0)
+[![License](https://img.shields.io/badge/license-not%20specified-lightgrey)](https://github.com/shin4141/automation-spend-gate)
+[![Template-first](https://img.shields.io/badge/template--first-yes-blue)](SPEND_GATE.md)
+[![Short prompt](https://img.shields.io/badge/docs-short%20prompt-green)](docs/autospend-short-prompt.md)
+
 Every AI tool looks worth it. Together they can kill your Rescale options.
 
 "Rescale options" means keeping cheaper, smaller, reversible paths open until the project proves it deserves more cost.
