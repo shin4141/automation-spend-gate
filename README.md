@@ -5,6 +5,14 @@
 [![Template-first](https://img.shields.io/badge/template--first-yes-blue)](SPEND_GATE.md)
 [![Short prompt](https://img.shields.io/badge/docs-short%20prompt-green)](docs/autospend-short-prompt.md)
 
+## Should I spend on this automation now?
+
+Before:
+automation, subscription, API, and tool spend leaks through enthusiasm.
+
+After:
+spend waits behind a gate: `GO`, `WAIT`, `RESCALE`, or `STOP`.
+
 Every AI tool looks worth it. Together they can kill your Rescale options.
 
 "Rescale options" means keeping cheaper, smaller, reversible paths open until the project proves it deserves more cost.
